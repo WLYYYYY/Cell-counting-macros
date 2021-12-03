@@ -25,7 +25,7 @@ The input images should be composite/multi-channel 2-D images, preferably TIFF f
 6. Macro **"4. Cell counting macro.ijm"** can now process images from different single-channel separately, and then combined and analyze the processed images from different channels, as instructed by the *"Image Calculator..."* and *"Analyze Particle..."* commands.
 
 ## Demonstration
-Some of the original sample images, as well as the output images/results generated from the above-mentioned macros, are uploaded together in folder "Demo". 
+Some of the original sample images, as well as the output images/results generated from the above-mentioned macros, are uploaded together into the folder "Demo sample". 
 
 ## Referenes/links
 [1] https://imagej.nih.gov/ij/docs/guide/146-29.html <br>
