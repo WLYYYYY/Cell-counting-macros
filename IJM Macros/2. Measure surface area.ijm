@@ -8,12 +8,14 @@ list = getFileList(Origin);
 setBatchMode(true);
 for (i=0; i<list.length; i++) { 
 	open(Origin+list[i]);
+	title = getTitle();
 	if (bitDepth==24)
     	run("8-bit");
     else
     	run("RGB Color");
     	run("8-bit");
     setThreshold(1, 255);
+    rename(title);
     setOption("BlackBackground", false);
     run("Convert to Mask");
     run("Fill Holes");
