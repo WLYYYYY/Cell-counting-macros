@@ -299,7 +299,7 @@ if (Selection1=="2") {
 	Dialog.addDirectory("Results", "");
 	Dialog.addMessage("The unique suffix identifiers for the two single-channel."+"\n"+"i.e., the suffix attached to the output images generated from macro \"3. Split channels and store.ijm\".");
 	Dialog.addString("Suffix id for Channel A", "_Ch1");
-	Dialog.addString("Suffix id for Channel B", "_Ch2");
+	Dialog.addString("Suffix id for Channel B", "_Ch3");
 	Dialog.show();
 	Original_A = Dialog.getString();
 	Original_B = Dialog.getString();
