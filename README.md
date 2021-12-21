@@ -21,7 +21,7 @@ The input images should be composite/multi-channel 2-D images, preferably TIFF f
 1. To correct uneven background, a simple macro "[1. Subtract background and store.ijm](https://github.com/WLYYYYY/Cell-counting-macros/blob/main/IJM%20Macros/1.%20Subtract%20background%20and%20store.ijm "1. Subtract background and store.ijm")" can perform rolling ball background subtraction [[1](https://imagej.net/plugins/rolling-ball-background-subtraction)] to all the images under the same folder. One might need to adjust the rolling ball radius according to the size of their target objects.
 ![Subtract background and store](/../main/Images/1.%20Subtract%20background%20and%20store.png)
 2. Align sample images to the reference atlas. This can be helped by the ImageJ plugin BigWarp [[2](https://imagej.net/plugins/bigwarp)].
-![Bigwarp demo](/../main/Images/2.%20BigWarp.png?raw=true)
+![Bigwarp demo](/../main/Images/2.%20BigWarp.png)
 3. Isolate brain regions of interest according to the atlas alignment. Crop and clear everything else, and leave a black background (0 pixel intensity for all color channels) below the brain regions of interest. This can be done with ImageJ or other image processing software such as Photoshop.
 ![Cropping with ImageJ demo](/../main/Images/3.%20Cropping%20and%20clear%20outside.png)
 4. Macro "[2. Measure surface area.ijm](https://github.com/WLYYYYY/Cell-counting-macros/blob/main/IJM%20Macros/2.%20Measure%20surface%20area.ijm "2. Measure surface area.ijm")" can then measure the surface area of cropped brain regions. It is recommended to perform spatial calibration before running this macro, so that the measurements will be presented in actual spatial units rather than pixels.
