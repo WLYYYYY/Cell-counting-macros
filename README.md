@@ -78,7 +78,7 @@ The input images should be composite/multi-channel 2-D images, preferably TIFF f
 				* Sauvola
 <br><br>
 ## Demonstration
-Some of the original sample images, as well as the output images/results generated from the above-mentioned macros, are uploaded together in folder "[Demo sample](../tree/main/Demo%20sample "Demo sample")". 
+Some of the original sample images, as well as the output images/results generated from the above-mentioned macros, are uploaded together in folder "[Demo sample](https://github.com/WLYYYYY/Cell-counting-macros/tree/main/Demo%20sample "Demo sample")". 
 <br><br>
 ## Referenes/links
 1. https://imagej.net/plugins/rolling-ball-background-subtraction
