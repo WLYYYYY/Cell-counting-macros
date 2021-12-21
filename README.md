@@ -65,7 +65,7 @@ The input images should be composite/multi-channel 2-D images, preferably TIFF f
 				* Shanbhag
 				* Triangle
 				* Yen
-			* Guirado [[3](https://www.sciencedirect.com/science/article/pii/S2405844018310508)]: threshold top (1-N)% brightest pixels, where N is the user-defined value one need to decide when this method is selected.
+			* Guirado [[3](https://www.sciencedirect.com/science/article/pii/S2405844018310508)]: threshold top (1-N)% brightest pixels, where N is the value one need to decide when this method is selected.
 			* Local thresholding:
 				* Bernsen
 				* Contrast
