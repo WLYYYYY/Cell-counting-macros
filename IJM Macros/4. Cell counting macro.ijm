@@ -59,7 +59,7 @@ if (Selection1=="1") {
 	Dialog.addDirectory("Original images", "");
 	Dialog.addDirectory("Processed images", "");
 	Dialog.addMessage("Parameters for image processing");
-	Dialog.addChoice("Thresholding method", Thresholding_method, "Default");
+	Dialog.addChoice("Thresholding method", Thresholding_method, "Otsu (Global)");
 	Dialog.addChoice("1st Filter", Filtering_method, "Gaussian Blur");
 	Dialog.addChoice("2nd Filter", Filtering_method, "(None)");
 	Dialog.show();
@@ -316,7 +316,7 @@ if (Selection1=="2") {
 	Dialog.addChoice("1st filter for channel A", Filtering_method, "Gaussian Blur");
 	Dialog.addChoice("2nd filter for channel A", Filtering_method, "Top Hat");
 	Dialog.addMessage("Parameters for image processing - Channel B");
-	Dialog.addChoice("Thresholding method", Thresholding_method, "Default");
+	Dialog.addChoice("Thresholding method", Thresholding_method, "Otsu (Global)");
 	Dialog.addChoice("1st filter for channel B", Filtering_method, "Gaussian Blur");
 	Dialog.addChoice("1st filter for channel B", Filtering_method, "(None)");
 	Dialog.addMessage("Determine the operator for \"Image Calculator...\"."+"\n"+"Operator should be chosen according to the goal of your analysis, or the spatial relations between signals of the two single-channels.");
