@@ -133,7 +133,7 @@ if (Selection1=="1") {
 		Dialog.setInsets(-10, 30, 10);
 		Dialog.addMessage("                                                            ");
 		Dialog.setInsets(-10, 30, 20);
-		Dialog.addNumber("Radius", 3);
+		Dialog.addNumber("Radius", 2);
 		Dialog.addCheckbox("Scaled unit", true);
 		Dialog.show();
 		f_rad_1 = Dialog.getNumber();
@@ -185,7 +185,7 @@ if (Selection1=="1") {
 		Dialog.setInsets(-10, 30, 10);
 		Dialog.addMessage("                                                            ");
 		Dialog.setInsets(-10, 30, 20);
-		Dialog.addNumber("Radius", 3);
+		Dialog.addNumber("Radius", 2);
 		Dialog.addCheckbox("Scaled unit", true);
 		Dialog.show();
 		f_rad_2 = Dialog.getNumber();
@@ -462,7 +462,7 @@ if (Selection1=="2") {
 		Dialog.setInsets(-10, 30, 10);
 		Dialog.addMessage("                                                            ");
 		Dialog.setInsets(-10, 30, 20);
-		Dialog.addNumber("Radius", 3);
+		Dialog.addNumber("Radius", 2);
 		Dialog.addCheckbox("Scaled unit", true);
 		Dialog.show();
 		f_rad_1_A = Dialog.getNumber();
@@ -515,7 +515,7 @@ if (Selection1=="2") {
 		Dialog.setInsets(-10, 30, 10);
 		Dialog.addMessage("                                                            ");
 		Dialog.setInsets(-10, 30, 20);
-		Dialog.addNumber("Radius", 3);
+		Dialog.addNumber("Radius", 2);
 		Dialog.addCheckbox("Scaled unit", true);
 		Dialog.show();
 		f_rad_2_A = Dialog.getNumber();
@@ -567,7 +567,7 @@ if (Selection1=="2") {
 		Dialog.setInsets(-10, 30, 10);
 		Dialog.addMessage("                                                            ");
 		Dialog.setInsets(-10, 30, 20);
-		Dialog.addNumber("Radius", 3);
+		Dialog.addNumber("Radius", 2);
 		Dialog.addCheckbox("Scaled unit", true);
 		Dialog.show();
 		f_rad_1_B = Dialog.getNumber();
@@ -619,7 +619,7 @@ if (Selection1=="2") {
 		Dialog.setInsets(-10, 30, 10);
 		Dialog.addMessage("                                                            ");
 		Dialog.setInsets(-10, 30, 20);
-		Dialog.addNumber("Radius", 3);
+		Dialog.addNumber("Radius", 2);
 		Dialog.addCheckbox("Scaled unit", true);
 		Dialog.show();
 		f_rad_2_B = Dialog.getNumber();
